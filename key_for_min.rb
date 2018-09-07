@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   lowest_value = ""
   values_array = []
-  name_hash.each_value {|value| values_array << puts value }
+  name_hash.each do |name, value|
+    if 
   values_array
 end
