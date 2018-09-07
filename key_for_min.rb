@@ -8,7 +8,9 @@ def key_for_min_value(name_hash)
     if lowest_value == nil
       lowest_name = name
       lowest_value = value
-    else
+    elsif value < lowest_value
+      lowest_name = name
+      lowest_value = value
       
   values_array
 end
